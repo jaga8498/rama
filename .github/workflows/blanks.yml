@@ -1,10 +1,11 @@
-name: terraform plan
+name: jagadeesh
 on: workflow_dispatch
 jobs:
-  rama:
-    runs-on: ubuntu-latest
-    steps:
-       - name: plan
-         run: |
-           touch one
-           echo "hello world"
+   github:
+      runs-on: ubuntu-latest
+      steps:
+        - name: complile the code
+          run: echo "one"
+
+         - name: test the code 
+           run: mkdir "two"
