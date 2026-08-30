@@ -8,4 +8,4 @@ jobs:
           run: echo "one"
 
          - name: test the code 
-           run: mkdir "two"
+           run: mkdir two
