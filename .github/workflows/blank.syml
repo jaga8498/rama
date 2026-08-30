@@ -1,0 +1,9 @@
+name: terraform  apply
+on:
+  workflow_dispatch: 
+jobs:
+  one:
+    run-on: ubuntu-latest
+    steps:
+      - name: hello world
+      run: echo "Hello world"
